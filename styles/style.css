@@ -92,7 +92,7 @@ aside {
   color: rgb(170, 177, 184);
 }
 
-/* Main Page */
+/* Home Page */
 
 .container {
   margin-left: 260px;
@@ -102,7 +102,6 @@ aside {
 .home-page {
   position: relative;
   height: 100vh;
-
 }
 
 .bg-image {
@@ -164,4 +163,152 @@ aside {
 
 .home-text>button:hover {
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* About Me */
+
+.about-me {
+  height: 100vh;
+  padding: 3rem;
+}
+
+
+/* Title */
+.about-me-title {
+  text-align: center;
+}
+
+.bg-text {
+  position: relative;
+}
+
+.bg-text>h1 {
+  margin: 40px 0;
+  font-size: 8rem;
+  font-weight: 600;
+  color: rgb(242, 244, 244);
+}
+
+.above-text {
+  position: absolute;
+  top: 123%;
+  left: 59.5%;
+  transform: translate(-50%, -50%);
+}
+
+.above-text>h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.above-text hr {
+  width: 80px;
+  height: 2px;
+  background-color: #FD7E14;
+  border: none;
+  margin: 5px auto;
+}
+
+/* Summary */
+.about-me-summary {
+  display: flex;
+}
+
+.summary {
+  width: 66%;
+}
+
+.summary h2,
+span {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.summary span {
+  color: #FD7E14;
+}
+
+.summary h2,
+p {
+  padding: 5px 0px;
+  line-height: 2rem
+}
+
+.summary p {
+  color: #4c4d4d;
+}
+
+/* Personal Details */
+
+.personal-details {
+  padding: 35px 5px 15px 45px;
+}
+
+.personal-details h4 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.personal-details span {
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 5px;
+  color: #4c4d4d;
+}
+
+.personal-details h4 span a {
+  cursor: pointer;
+  color: #FD7E14;
+}
+
+.personal-details hr {
+  width: 350px;
+  height: 0.5px;
+  background-color: rgb(229, 233, 237);
+  border: none;
+  margin: 17px 0px;
+}
+
+.personal-details button {
+  cursor: pointer;
+  padding: 17px 40px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 0.5rem;
+  color: #fff;
+  background-color: #FD7E14;
+}
+
+/* Featured Box */
+
+.featured-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0rem;
+}
+
+.featured-box .box {
+  text-align: center;
+}
+
+.featured-box>div {
+  padding: 0 5.2rem;
+  border-right: 1px solid rgb(229, 233, 237);
+}
+
+.featured-box>div:last-child {
+  border-right: none;
+}
+
+.featured-box .box h1 {
+  margin: 0px 0px;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #8E9A9D;
+}
+
+.featured-box .box p {
+  color: #4c4d4d;
+  font-size: 16px;
 }
