@@ -170,6 +170,7 @@ aside {
 .about-me {
   height: 100vh;
   padding: 3rem;
+  margin-bottom: 4rem;
 }
 
 
@@ -311,4 +312,73 @@ p {
 .featured-box .box p {
   color: #4c4d4d;
   font-size: 16px;
+}
+
+/* Services */
+
+.services {
+  padding: 3rem 4rem;
+  background-color: #F8F9FA;
+}
+
+.service-bg-text {
+  position: relative;
+}
+
+.service-bg-text h1 {
+  color: #EEF0F1;
+}
+
+.services-above-text {
+  position: absolute;
+  top: 232%;
+  left: 59.5%;
+  transform: translate(-50%, -50%);
+}
+
+.services-sections {
+  display: flex;
+  margin-top: 3.2rem;
+}
+
+.service-section {
+  margin-left: 25px;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 3rem;
+
+}
+
+.service .service-img i {
+  font-size: 24px;
+  color: #FD7E14;
+}
+
+.fa-solid,
+.fas {
+  display: inline-block;
+  font-size: 24px;
+  background-color: #fff;
+  color: #FD7E14;
+  padding: 22px;
+  border-radius: 10%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service .service-text {
+  margin-left: 20px;
+}
+
+.service .service-text h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.service-text p {
+  line-height: 30px;
+  padding: 0;
+  margin-top: 10px;
 }
