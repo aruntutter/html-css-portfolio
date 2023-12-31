@@ -622,6 +622,7 @@ p {
 }
 
 .portfolio-item {
+  cursor: pointer;
   margin-bottom: 2rem;
   position: relative;
   border: none;
@@ -679,4 +680,97 @@ p {
 .portfolio-item:hover .img-caption {
   opacity: 1;
   z-index: 1;
+}
+
+/* Testimonial */
+
+.testimonial-bg-text {
+  position: relative;
+  text-align: center;
+}
+
+.testimonial-bg-text h1 {
+  color: #EEF0F1;
+  font-size: 8.2rem;
+  font-weight: 600;
+  margin: 40px 0;
+}
+
+.testimonial-above-text {
+  position: absolute;
+  top: 733%;
+  left: 58.5%;
+  transform: translate(-50%, -50%);
+}
+
+.testimonial-above-text h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.testimonial-above-text hr {
+  width: 80px;
+  height: 2px;
+  background-color: #FD7E14;
+  border: none;
+  margin: 5px auto;
+}
+
+.client-testimonials {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 1rem 3rem 3rem;
+}
+
+.testimonial-card {
+  border: none;
+  border-radius: 10px;
+  background-color: #F8F9FA;
+  padding: 3.5rem;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+}
+
+.client-info img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.client-name-place {
+  text-align: left;
+}
+
+.client-name-place h4:first-child {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600
+}
+
+.client-name-place h4:last-child {
+  margin: 10px 0 0 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #888;
+}
+
+.testimonial-card p {
+  margin-top: 1.7rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+}
+
+.star-rating {
+  font-size: 2px;
+  color: #ffd700;
+  margin-top: 1rem;
+}
+
+.star {
+  margin-right: 0;
 }
