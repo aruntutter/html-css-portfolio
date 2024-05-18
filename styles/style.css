@@ -80,6 +80,14 @@ aside {
   color: rgb(170, 177, 184);
 }
 
+.options-container>ul>li>a {
+  color: #ffffff;
+}
+
+.options-container>ul>li>a:hover {
+  text-decoration: underline;
+}
+
 .icons-container>ul {
   display: flex;
   align-items: center;
